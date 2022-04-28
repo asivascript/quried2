@@ -4,6 +4,7 @@ import { useContext,useState } from 'react'
 import { OCcontextval } from './Context/OCcontext'
 import { DMcontextval } from "./Context/DMcontext";
 import { Authcontextval } from './Context/Authcontext';
+import { QAcontextval } from './Context/QAcontext';
 import { ButtonBase } from '@mui/material';
 import Answer from './Answer';
 import { ArrowUpward,ArrowDownward } from "@mui/icons-material"
@@ -12,8 +13,11 @@ const Questionbox = ({ question="hi" , likes=0,dislikes=0, questionid,isselected
 const {setanswerOC} = useContext(OCcontextval)
 const {isDark} = useContext(DMcontextval)
 const { user } = useContext(Authcontextval)
+const {currentQuestions,setcurrentQuestions} = useContext(QAcontextval)
+
 
 const likequesfunc = (e) =>{
+ 
   e.stopPropagation()
   console.log('liked')
   likeques(user,questionid)
