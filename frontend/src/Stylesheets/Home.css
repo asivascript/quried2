@@ -1,0 +1,74 @@
+/* .home{
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.home::-webkit-scrollbar{
+    display: none;
+} */
+.home{
+    position: relative;
+    padding-top: 40px;
+}
+.navbar{
+    position: absolute;
+    width: 30%;
+    top: 0;
+    right: 0;
+}
+.questans{
+    width: 35%;
+    overflow-y: scroll;
+}
+
+.answerbox{
+    min-height: fit-content;
+}
+
+.question{
+    height: fit-content;
+}
+.question:hover{
+    border: 2px solid rgb(1, 153, 39);
+    box-shadow: 1px 1px 20px rgb(1, 153, 39);
+    transition: 0.3s;
+}
+
+.faq{
+    padding-top: 40px;
+    width: 35%;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+/* .heading{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+} */
+.faq::-webkit-scrollbar{
+    display: none;
+}
+.questans::-webkit-scrollbar{
+    display: none;
+}
+.scrollkit::-webkit-scrollbar {
+    width: 4px;
+}
+
+.scrollkit::-webkit-scrollbar-track {
+    background: #2C2F33;
+}
+
+.scrollkit::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+@media (max-width : 1000px) {
+    .navbar{
+        width: 50%;
+    }
+    
+}

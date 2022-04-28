@@ -1,0 +1,30 @@
+.Cta-c{
+    text-align: center;
+}
+.Cflex{
+    display: flex;
+}
+.Cf-dir{
+    flex-direction: column;
+}
+.Cf-w{
+   flex-wrap: wrap;
+}
+.Cjc-c{
+    justify-content: center;
+}
+.Cjc-sb{
+    justify-content: space-between;
+}
+.Cai-c{
+    align-items: center;
+}
+.Cai-sb{
+    align-items: space-between;
+}
+.Cinline{
+    display: inline;
+}
+.Cblock{
+    display: block;
+}

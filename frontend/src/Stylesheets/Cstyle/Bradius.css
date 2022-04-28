@@ -1,0 +1,18 @@
+.Cbrad{
+    border-radius: 10px;
+}
+.Cbradx{
+    border-radius: 15px;
+}
+.Cbrady{
+    border-radius: 5px;
+}
+.Cbs1b{
+    border: 1px solid #000000 ;
+}
+.Cbs2c1-r{
+    border-right: 2px solid #515668;
+}
+.Cc-p{
+    cursor: pointer;
+}
